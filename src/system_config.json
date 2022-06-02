@@ -1,0 +1,22 @@
+{
+    "development": {
+        "fusion": {
+            "url": "https://efgeneral.lucidworkssales.com",
+            "username": "mgm_search_sa",
+            "password": "]@$9w6_K[$Hxs^G.",
+            "app": "mgm"
+        },
+        "suggest": {
+            "url": "https://efgeneral.lucidworkssales.com/templating/render/mgm?templateTypes=typeahead",
+            "username": "mgm_search_sa",
+            "password": "]@$9w6_K[$Hxs^G.",
+            "app": "mgm"
+        },
+        "trending_searches": {
+            "url": "https://efgeneral.lucidworkssales.com/api/apps/mgm/query/mgm_trending_queries_recs",
+            "username": "mgm_search_sa",
+            "password": "]@$9w6_K[$Hxs^G.",
+            "app": "mgm"
+        }
+    }
+}

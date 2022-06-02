@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    span {
+        margin-bottom: 0.5rem;
+
+        &:first-of-type {
+            color: #555555;
+            font-weight: 500;
+        }
+    }
+}
