@@ -1,0 +1,28 @@
+.pagination {
+    justify-content: center;
+}
+
+.paginationInfo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #555555;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.listWrapper {
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.arrow {
+    img:first-child {
+        margin-left: 2rem;
+    }
+
+    img:nth-child(2) {
+        margin-left: 1.5rem;
+    }
+}
