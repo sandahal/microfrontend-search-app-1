@@ -9,9 +9,11 @@ import pinLogo from "../../../../../src/assets/pinterest.jpg"
 
 const RewardsOffers = () => {
     return <Row className={Styles.row}>
-        <Col lg={3} className={Styles.col}>
+        <Col lg={4} className={Styles.col}>
             <span>Reservations</span>
             <a href="tel:+18557886775"><span>855.788.6775</span></a>
+            <br></br>
+            <p>For The Cosmopolitan of Las Vegas, call <a href="tel:+18554350005">855.435.0005</a>.</p>
             <p>Telephone booking fee may be applied.</p>
         </Col>
         <Col lg={2} className={Styles.col}>

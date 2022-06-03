@@ -30,7 +30,7 @@ const ListView: React.FC<ListViewProps> = ({ list }) => {
         </div>
         <Row className="justify-content-md-center">
             <div className={Styles.paginationInfo}>
-                <span>PAGE</span>
+                <span>PAGE </span>
                 <span>{currentPage}/{totalPages}</span>
                 <div className={Styles.arrow} id="arrow-icons">
                     <img src={PrevIcon} alt="prev" />
