@@ -1,6 +1,11 @@
 import React from "react";
 import { Button, Col, Row, Stack } from "react-bootstrap";
 import Styles from "./Rewards&Offers.module.scss";
+import fbLogo from "../../../../../src/assets/fb.jpg";
+import instaLogo from "../../../../../src/assets/instagram.jpg";
+import ytLogo from "../../../../../src/assets/youtube.jpg"
+import twitLogo from "../../../../../src/assets/twitter.jpg"
+import pinLogo from "../../../../../src/assets/pinterest.jpg"
 
 const RewardsOffers = () => {
     return <Row className={Styles.row}>
@@ -19,9 +24,15 @@ const RewardsOffers = () => {
         </Col>
         <Col lg={3} className={Styles.col}>
             <span>Social</span>
-            <img src="" alt="social-icons" />
+            <Row lg={5} className={Styles.rowsocial}>
+                <a href="https://www.facebook.com/mgmresorts/"><img src={fbLogo} alt="fb-logo" /></a>
+                <a href="https://twitter.com/MGMResortsIntl"><img src={twitLogo} alt="twitter-logo" /></a>
+                <a href="https://www.youtube.com/user/mlifetv"><img src={ytLogo} alt="youtube-logo" /></a>
+                <a href="https://www.instagram.com/mgmresortsintl/"><img src={instaLogo} alt="instagram-logo" /></a>
+                <a href="https://in.pinterest.com/MGMResorts/_created/"><img src={pinLogo} alt="pinterest-logo" /></a>
+            </Row>
         </Col>
-    </Row>
+    </Row >
 }
 
 export default RewardsOffers;
