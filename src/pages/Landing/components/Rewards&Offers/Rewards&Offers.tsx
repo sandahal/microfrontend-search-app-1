@@ -16,7 +16,7 @@ const RewardsOffers = () => {
             <p>For The Cosmopolitan of Las Vegas, call <a href="tel:+18554350005">855.435.0005</a>.</p>
             <p>Telephone booking fee may be applied.</p>
         </Col>
-        <Col lg={2} className={Styles.col}>
+        <Col lg={3} className={Styles.col}>
             <span>MGM Rewards Mastercard</span>
             <a href="https://www.mgmresorts.com/en/mgm-rewards/mgm-rewards-mastercard-1b.html"><Button variant="primary">LEARN MORE</Button></a>
         </Col>
