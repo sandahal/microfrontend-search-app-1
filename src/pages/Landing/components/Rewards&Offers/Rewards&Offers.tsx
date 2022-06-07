@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Row, Stack } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import Styles from "./Rewards&Offers.module.scss";
 import fbLogo from "../../../../../src/assets/fb.jpg";
 import instaLogo from "../../../../../src/assets/instagram.jpg";

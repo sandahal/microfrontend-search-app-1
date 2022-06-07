@@ -1,8 +1,7 @@
 import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { ListItemType } from "../ListView/ListView";
 import Styles from "./ListItem.module.scss";
-import SampleImg from "../../../../assets/sample.svg";
 
 export type ListItemProps = {
     data: ListItemType;
@@ -11,7 +10,7 @@ export type ListItemProps = {
 const ListItem: React.FC<ListItemProps> = ({ data }) => {
     return <Row className={Styles.card}>
         <Col lg={3}>
-            <img src={data.image} alt="item-image" className={Styles.cardImage} />
+            <img src={data.image} alt="item-ig" className={Styles.cardImage} />
         </Col>
         <Col lg={9}>
             <h4 className={Styles.cardTitle}>{data.title}</h4>
