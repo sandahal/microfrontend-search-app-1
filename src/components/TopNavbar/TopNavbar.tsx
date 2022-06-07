@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav, Row, Col, Button, Dropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, Col, Dropdown } from "react-bootstrap";
 import Styles from "./TopNavbar.module.scss";
 
 const TopNavbar: React.FC = () => {

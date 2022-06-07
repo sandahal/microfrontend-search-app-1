@@ -1,6 +1,7 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
 import FooterStyles from "./Footer.module.scss";
+
+
 
 const Footer: React.FC = () => {
     return <div className={FooterStyles.footer}>

@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 4rem;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1.5px solid #e6e6e6;
 }
 
 
 .navb {
     padding-right: 4rem;
     justify-content: space-between;
+    --bs-gutter-x: 1.5rem;
 }

@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Button, Col, Container, FormControl, InputGroup, Row } from "react-bootstrap";
 import Layout from "../../layouts/Layout";
 import Styles from "./Landing.module.scss";
 import ListView from "./components/ListView/ListView";
 import { SearchList } from "./Landing.constant";
 import RewardsOffers from "./components/Rewards&Offers/Rewards&Offers";
-import axios, { AxiosError, AxiosResponse } from "axios";
 import CloseIcon from '../../assets/close.svg';
-import { default as api } from '../../system_config.json';
 
 
 const Landing: React.FC = () => {

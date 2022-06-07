@@ -1,7 +1,7 @@
 .row {
     display: flex;
     justify-content: space-between;
-    padding-top: 5rem;
+    padding-top: 2.5rem;
 }
 
 .col {
@@ -16,6 +16,11 @@
 
     p {
         font-size: 12px;
+
+        a {
+            text-decoration: none;
+            color: #555555;
+        }
     }
 
     span {
@@ -25,5 +30,16 @@
             color: #555555;
             font-weight: 500;
         }
+    }
+}
+
+.rowsocial {
+    display: flex;
+    justify-content: center;
+
+    img {
+        max-width: 75%;
+        max-height: 100%;
+        --bs-gutter-x: 1.5rem;
     }
 }
