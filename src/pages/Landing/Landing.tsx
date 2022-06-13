@@ -36,9 +36,11 @@ const Landing: React.FC = () => {
                     </Col>
                     <p id="search-info" className={Styles.infoText}>50 Results for Lorem Ipsum in Las Vegas</p>
                 </Row>
-                <Row className={Styles.row}>
-                    <ListView list={SearchList} />
-                </Row>
+                <Container className={Styles.landingPageItems}>
+                    <Row className={Styles.row}>
+                        <ListView list={SearchList} />
+                    </Row>
+                </Container>
                 <Row className={Styles.row}>
                     <RewardsOffers />
                 </Row>
