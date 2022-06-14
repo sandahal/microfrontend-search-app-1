@@ -19,7 +19,6 @@ export type ListItemType = {
 const ListView: React.FC<ListViewProps> = ({ list }) => {
     const [currentPage] = useState(1);
     const totalPages = list.length;
-
     return <>
         <div className={Styles.listWrapper}>
             {
